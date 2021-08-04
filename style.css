@@ -1,0 +1,101 @@
+.logo {
+    border-radius: 10%;
+    width: 30%;
+    height: 25%;
+    margin-bottom: 3%;
+}
+
+.top {
+    margin-top: 13%;
+}
+
+.clr {
+    color: #fff;
+}
+
+.lnk {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lnk:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icn {
+    font-size: xx-large;
+}
+
+.carousel {
+    margin-bottom: 0 !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+/* Small Mobile Portrait Breakpoint */
+
+@media screen and (min-width: 270px){
+    .logo {
+        width: 90%;
+        height: 85%;
+    }   
+}
+/* Mobile Portrait Breakpoint */
+
+@media screen and (min-width: 478px){
+    .logo {
+        width: 90%;
+        height: 85%;
+    }   
+}
+
+/* Mobile Landscape Breakpoint */
+
+@media screen and (min-width: 768px){
+    .logo {
+        width: 90%;
+        height: 85%;
+    }   
+}
+
+/* Tablet Breakpoint */
+
+@media screen and (min-width: 1024px){
+    .logo {
+        width: 50%;
+        height: 45%;
+    }   
+}
+
+/* Laptop Breakpoint */
+
+@media screen and (min-width: 1440px){
+    .logo {
+        width: 50%;
+        height: 45%;
+    }   
+}
